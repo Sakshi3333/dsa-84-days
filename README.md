@@ -7,7 +7,7 @@ For every problem I keep the **journey** (what I tried and what went wrong), the
 
 | Day | Problem | Pattern | Attempts | Video |
 |---|---|---|---|---|
-| 1 | [Contains Duplicate](week-01-arrays-hashing/01-contains-duplicate) | Hash set | 3 | _coming soon_ |
+| 1 | [Contains Duplicate](week-01-arrays-hashing/01-contains-duplicate) | Hash set | 3 | [Watch](https://youtu.be/UnkPItN-xDc) (private) |
 
 ## Weeks
 

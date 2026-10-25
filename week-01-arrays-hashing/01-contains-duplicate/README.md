@@ -64,4 +64,4 @@ Check **before** inserting (otherwise every number finds itself), and return `fa
 
 ## Video
 
-_Link coming soon_
+[My teaching video](https://youtu.be/UnkPItN-xDc) (private: plays only when I'm logged in to YouTube)
