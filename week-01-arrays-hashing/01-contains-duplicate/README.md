@@ -41,6 +41,27 @@ Check **before** inserting (otherwise every number finds itself), and return `fa
 **Q:** 10 crore numbers and very little memory?
 **A:** Sort and compare neighbours. Almost no extra memory, but it costs time (O(n log n) instead of O(n)) and changes the original array. If I can't change it, I need a copy, which is O(n) space again.
 
+## Slides (quick revision)
+
+![Title](slides/slide-1.png)
+![My 3 attempts](slides/slide-2.png)
+![The idea](slides/slide-3.png)
+![Code and dry run](slides/slide-4.png)
+![Complexity](slides/slide-5.png)
+
+## Teaching script (say it out loud in 3 minutes)
+
+1. **Problem:** return true if any number appears twice. `[1,2,3,1]` → true.
+2. **My mistake:** comparing `nums[i]` with `nums[i+1]` crashed at the last index, and duplicates aren't always neighbours.
+3. **Brute force:** two loops, every pair. Correct but O(n²), so Time Limit Exceeded.
+4. **Key question:** while I walk once, what do I need to remember? All the numbers I've seen.
+5. **Hash set** = a wedding guard's register: `insert` writes a name in, `count` asks "is it inside?".
+6. **Why not a list?** A list checks one by one. A set uses hashing and jumps straight there: O(1).
+7. **Solution:** empty set → for each number, if it's in the set return true, else insert it → return false after the loop.
+8. **Dry run:** 1, 2, 3 go in; 1 is already there → true.
+9. **Trap:** check before insert; return false only after the loop.
+10. **Complexity:** O(n) time, O(n) space. Sorting is O(n log n) with almost no extra space. Mention both.
+
 ## Video
 
 _Link coming soon_
