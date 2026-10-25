@@ -8,6 +8,7 @@ For every problem I keep the **journey** (what I tried and what went wrong), the
 | Day | Problem | Pattern | Attempts | Video |
 |---|---|---|---|---|
 | 1 | [Contains Duplicate](week-01-arrays-hashing/01-contains-duplicate) | Hash set | 3 | [Watch](https://youtu.be/UnkPItN-xDc) (private) |
+| 1 | [Valid Anagram](week-01-arrays-hashing/02-valid-anagram) | Counting with a map | 1 (3 bugs fixed) | _coming soon_ |
 
 ## Weeks
 
